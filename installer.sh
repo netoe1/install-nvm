@@ -6,3 +6,5 @@ echo "Configuring permissions..."
 sudo chmod +x install.sh
 echo "Running install.sh script...."
 ./install.sh
+cd ..
+rm -rf "./nvm-installer"
